@@ -1,0 +1,5 @@
+# useful to ignore testing results and results
+# for collections for experiments
+
+
+mt0-only-results.*

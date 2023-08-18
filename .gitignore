@@ -1,0 +1,46 @@
+wiki_poc/.env
+
+# jupyter notebook temporary files
+wiki_poc/dataset/custom/__pycache__
+wiki_poc/dataset/__pycache__
+
+wiki_poc/dataset/data
+wiki_poc/dataset/data_reduced
+wiki_poc/dataset/data_unparaphrased
+wiki_poc/dataset/data_unparaphrased_*
+wiki_poc/dataset/data_paraphrased
+wiki_poc/dataset/data_paraphrased_*
+wiki_poc/dataset/data_masked/*
+wiki_poc/dataset/data_masked_*
+
+wiki_poc/dataset/wiki-dataset-*
+wiki_poc/dataset/results/data_v1/wiki-dataset.csv
+wiki_poc/dataset/results/data_v1/wiki-dataset-results-1k.csv
+wiki_poc/dataset/results/data_v2/wiki-dataset-results-1k.csv
+
+# prevent any swissdox data to appear publicly (usage agreement)
+datasets/news_articles/swissdox_newsarticles.tsv
+# dataset research
+datasets/news_articles.jsonl
+datasets/news_articles/by_regex_*
+datasets/news_articles/*
+datasets/re_identified.md
+
+wiki_poc/models/.credentials
+
+# results from model outputs
+wiki_poc/models/*.jsonl
+wiki_poc/results/*
+# keep large model outputs versioned, as they are expensive to compute
+!wiki_poc/results/large_models/*
+
+wiki_poc/evaluation/__pycache__
+wiki_poc/models/__pycache__
+wiki_poc/models/.ipynb_checkpoints
+
+# cache for pipeline
+wiki_poc/models/cache/*
+
+# ignore any interpreter import compilations
+*.pyc
+__pycache__

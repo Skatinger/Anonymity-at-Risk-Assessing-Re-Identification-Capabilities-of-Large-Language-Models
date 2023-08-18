@@ -1,0 +1,919 @@
+{
+    "key": "run-all-top-5",
+    "bloom-7b1": {
+        "size": 7.1,
+        "paraphrased": {
+            "accuracy": 0.20705263157894738,
+            "precision": 0.5724221344284783,
+            "last_name_accuracy": 0.15357894736842106,
+            "last_name_precision": 1.0644276901987664,
+            "weighted_score": 0.17229473684210528
+        },
+        "original": {
+            "accuracy": 0.19180839287511323,
+            "precision": 0.5796548271076108,
+            "last_name_accuracy": 0.14008251987521383,
+            "last_name_precision": 1.0646551724137931,
+            "weighted_score": 0.1581865754251786
+        }
+    },
+    "bloom-1b1": {
+        "size": 1.1,
+        "paraphrased": {
+            "accuracy": 0.08557894736842105,
+            "precision": 0.604701547618868,
+            "last_name_accuracy": 0.05778947368421053,
+            "last_name_precision": 1.0892531876138434,
+            "weighted_score": 0.06751578947368421
+        },
+        "original": {
+            "accuracy": 0.08332494716715307,
+            "precision": 0.5998612771029862,
+            "last_name_accuracy": 0.049411291134145115,
+            "last_name_precision": 1.0590631364562118,
+            "weighted_score": 0.0612810707456979
+        }
+    },
+    "bloom-3b": {
+        "size": 3.0,
+        "paraphrased": {
+            "accuracy": 0.18305263157894736,
+            "precision": 0.5751170094832847,
+            "last_name_accuracy": 0.13494736842105262,
+            "last_name_precision": 1.0655226209048363,
+            "weighted_score": 0.15178421052631577
+        },
+        "original": {
+            "accuracy": 0.159102344772064,
+            "precision": 0.5782907330771063,
+            "last_name_accuracy": 0.11774177317097716,
+            "last_name_precision": 1.0743589743589743,
+            "weighted_score": 0.13221797323135756
+        }
+    },
+    "bloom-1b7": {
+        "size": 1.7,
+        "paraphrased": {
+            "accuracy": 0.14768421052631578,
+            "precision": 0.5335305742766127,
+            "last_name_accuracy": 0.11021052631578947,
+            "last_name_precision": 1.0391595033428844,
+            "weighted_score": 0.12332631578947367
+        },
+        "original": {
+            "accuracy": 0.14078695783435644,
+            "precision": 0.5356109160043956,
+            "last_name_accuracy": 0.10184160209318707,
+            "last_name_precision": 1.0355731225296443,
+            "weighted_score": 0.11547247660259635
+        }
+    },
+    "t5-0b220": {
+        "size": 0.22,
+        "paraphrased": {
+            "accuracy": 0.037157894736842105,
+            "precision": 0.6320853532249392,
+            "last_name_accuracy": 0.014842105263157894,
+            "last_name_precision": 1.0212765957446808,
+            "weighted_score": 0.02265263157894737
+        },
+        "original": {
+            "accuracy": 0.04749924524504377,
+            "precision": 0.6073687055493374,
+            "last_name_accuracy": 0.02475596256415417,
+            "last_name_precision": 1.016260162601626,
+            "weighted_score": 0.032716111502465534
+        }
+    },
+    "t5-3b": {
+        "size": 3.0,
+        "paraphrased": {
+            "accuracy": 0.25694736842105265,
+            "precision": 0.588192088783389,
+            "last_name_accuracy": 0.19094736842105264,
+            "last_name_precision": 1.0523704520396913,
+            "weighted_score": 0.21404736842105265
+        },
+        "original": {
+            "accuracy": 0.25047801147227533,
+            "precision": 0.5812770681353827,
+            "last_name_accuracy": 0.19060078494515448,
+            "last_name_precision": 1.038014783526927,
+            "weighted_score": 0.21155781422964678
+        }
+    },
+    "t5-0b060": {
+        "size": 0.06,
+        "paraphrased": {
+            "accuracy": 0.12252631578947368,
+            "precision": 0.7128323454104245,
+            "last_name_accuracy": 0.07326315789473684,
+            "last_name_precision": 1.1422413793103448,
+            "weighted_score": 0.09050526315789473
+        },
+        "original": {
+            "accuracy": 0.11482338734024354,
+            "precision": 0.7155145993695283,
+            "last_name_accuracy": 0.06953808996679078,
+            "last_name_precision": 1.1316931982633864,
+            "weighted_score": 0.08538794404749925
+        }
+    },
+    "t5-0b770": {
+        "size": 0.77,
+        "paraphrased": {
+            "accuracy": 0.2326315789473684,
+            "precision": 0.5591762282886922,
+            "last_name_accuracy": 0.16305263157894737,
+            "last_name_precision": 1.023886378308586,
+            "weighted_score": 0.18740526315789474
+        },
+        "original": {
+            "accuracy": 0.250779913454765,
+            "precision": 0.5469911552063993,
+            "last_name_accuracy": 0.18838683707356346,
+            "last_name_precision": 1.017628205128205,
+            "weighted_score": 0.21022441380698403
+        }
+    },
+    "majority_full_name-1b": {
+        "size": 1.0,
+        "paraphrased": {
+            "accuracy": 0.11210526315789474,
+            "precision": 0.644883742139894,
+            "last_name_accuracy": 0.010526315789473684,
+            "last_name_precision": 1.09,
+            "weighted_score": 0.046078947368421046
+        },
+        "original": {
+            "accuracy": 0.10888598168461307,
+            "precision": 0.6441495619496528,
+            "last_name_accuracy": 0.010164033410486063,
+            "last_name_precision": 1.0891089108910892,
+            "weighted_score": 0.04471671530643051
+        }
+    },
+    "pythia-2b8": {
+        "size": 2.8,
+        "paraphrased": {
+            "accuracy": 0.021894736842105262,
+            "precision": 0.8120561177922773,
+            "last_name_accuracy": 0.008842105263157894,
+            "last_name_precision": 1.3452380952380953,
+            "weighted_score": 0.013410526315789473
+        },
+        "original": {
+            "accuracy": 0.08885981684613062,
+            "precision": 1.3401368405391025,
+            "last_name_accuracy": 0.060984200462916374,
+            "last_name_precision": 1.9422442244224423,
+            "weighted_score": 0.07074066619704136
+        }
+    },
+    "pythia-0b070": {
+        "size": 0.07,
+        "paraphrased": {
+            "accuracy": 0.024736842105263158,
+            "precision": 0.8155623825036414,
+            "last_name_accuracy": 0.010842105263157894,
+            "last_name_precision": 1.2427184466019416,
+            "weighted_score": 0.015705263157894736
+        },
+        "original": {
+            "accuracy": 0.06450639025862936,
+            "precision": 1.650988351510645,
+            "last_name_accuracy": 0.04176310757773976,
+            "last_name_precision": 2.3807228915662653,
+            "weighted_score": 0.04972325651605112
+        }
+    },
+    "pythia-1b4": {
+        "size": 1.4,
+        "paraphrased": {
+            "accuracy": 0.02631578947368421,
+            "precision": 0.8405855567580738,
+            "last_name_accuracy": 0.009052631578947368,
+            "last_name_precision": 1.3837209302325582,
+            "weighted_score": 0.015094736842105261
+        },
+        "original": {
+            "accuracy": 0.06722350810103653,
+            "precision": 1.5822611068758523,
+            "last_name_accuracy": 0.04598973533259535,
+            "last_name_precision": 2.25382932166302,
+            "weighted_score": 0.05342155580154977
+        }
+    },
+    "pythia-0b160": {
+        "size": 0.16,
+        "paraphrased": {
+            "accuracy": 0.02273684210526316,
+            "precision": 0.7903058560891907,
+            "last_name_accuracy": 0.009789473684210527,
+            "last_name_precision": 1.2688172043010753,
+            "weighted_score": 0.014321052631578946
+        },
+        "original": {
+            "accuracy": 0.06007849451544732,
+            "precision": 1.7055809140163114,
+            "last_name_accuracy": 0.03894535574116937,
+            "last_name_precision": 2.462532299741602,
+            "weighted_score": 0.04634195431216665
+        }
+    },
+    "pythia-0b410": {
+        "size": 0.41,
+        "paraphrased": {
+            "accuracy": 0.030947368421052633,
+            "precision": 0.8365629267184125,
+            "last_name_accuracy": 0.0074736842105263155,
+            "last_name_precision": 1.4647887323943662,
+            "weighted_score": 0.015689473684210527
+        },
+        "original": {
+            "accuracy": 0.09288517661265976,
+            "precision": 1.3183976619229367,
+            "last_name_accuracy": 0.060481030492100234,
+            "last_name_precision": 1.9633943427620633,
+            "weighted_score": 0.07182248163429607
+        }
+    },
+    "pythia-6b9": {
+        "size": 6.9,
+        "paraphrased": {
+            "accuracy": 0.01263157894736842,
+            "precision": 0.9724795675746118,
+            "last_name_accuracy": 0.003368421052631579,
+            "last_name_precision": 1.8125,
+            "weighted_score": 0.006610526315789474
+        },
+        "original": {
+            "accuracy": 0.06772667807185268,
+            "precision": 1.549269089412222,
+            "last_name_accuracy": 0.050115729093287716,
+            "last_name_precision": 2.1345381526104417,
+            "weighted_score": 0.05627956123578545
+        }
+    },
+    "pythia-12b": {
+        "size": 12.0,
+        "paraphrased": {
+            "accuracy": 0.035263157894736843,
+            "precision": 0.8173392167964906,
+            "last_name_accuracy": 0.009052631578947368,
+            "last_name_precision": 1.430232558139535,
+            "weighted_score": 0.018226315789473684
+        },
+        "original": {
+            "accuracy": 0.06742477608936298,
+            "precision": 1.585645223317254,
+            "last_name_accuracy": 0.04045486565361779,
+            "last_name_precision": 2.4203980099502487,
+            "weighted_score": 0.04989433430612861
+        }
+    },
+    "cerebras-6b7": {
+        "size": 6.7,
+        "paraphrased": {
+            "accuracy": 0.031578947368421054,
+            "precision": 0.7788785638848741,
+            "last_name_accuracy": 0.015368421052631578,
+            "last_name_precision": 1.2534246575342465,
+            "weighted_score": 0.021042105263157893
+        },
+        "original": {
+            "accuracy": 0.06430512227030291,
+            "precision": 1.6227429991614508,
+            "last_name_accuracy": 0.04125993760692362,
+            "last_name_precision": 2.395121951219512,
+            "weighted_score": 0.049325752239106374
+        }
+    },
+    "cerebras-0b111": {
+        "size": 0.111,
+        "paraphrased": {
+            "accuracy": 0.015473684210526317,
+            "precision": 0.9225399577829694,
+            "last_name_accuracy": 0.005263157894736842,
+            "last_name_precision": 1.56,
+            "weighted_score": 0.008836842105263159
+        },
+        "original": {
+            "accuracy": 0.04770051323337023,
+            "precision": 1.9814559785349077,
+            "last_name_accuracy": 0.03270604810304921,
+            "last_name_precision": 2.747692307692308,
+            "weighted_score": 0.03795411089866157
+        }
+    },
+    "cerebras-2b7": {
+        "size": 2.7,
+        "paraphrased": {
+            "accuracy": 0.021368421052631578,
+            "precision": 0.80749035154358,
+            "last_name_accuracy": 0.009789473684210527,
+            "last_name_precision": 1.2903225806451613,
+            "weighted_score": 0.013842105263157895
+        },
+        "original": {
+            "accuracy": 0.08503572506792795,
+            "precision": 1.379969364831414,
+            "last_name_accuracy": 0.0610848344570796,
+            "last_name_precision": 1.9406919275123558,
+            "weighted_score": 0.06946764617087652
+        }
+    },
+    "cerebras-13b": {
+        "size": 13.0,
+        "paraphrased": {
+            "accuracy": 0.052526315789473685,
+            "precision": 1.5594384400237435,
+            "last_name_accuracy": 0.03442105263157895,
+            "last_name_precision": 2.2752293577981653,
+            "weighted_score": 0.040757894736842104
+        },
+        "original": {
+            "accuracy": 0.12388044681493408,
+            "precision": 1.251038364776781,
+            "last_name_accuracy": 0.08161416926637818,
+            "last_name_precision": 1.9038224414303329,
+            "weighted_score": 0.09640736640837275
+        }
+    },
+    "cerebras-1b3": {
+        "size": 1.3,
+        "paraphrased": {
+            "accuracy": 0.02831578947368421,
+            "precision": 0.7517654575842765,
+            "last_name_accuracy": 0.014736842105263158,
+            "last_name_precision": 1.2428571428571429,
+            "weighted_score": 0.01948947368421053
+        },
+        "original": {
+            "accuracy": 0.10123779812820771,
+            "precision": 1.2353592121634094,
+            "last_name_accuracy": 0.07607929958740062,
+            "last_name_precision": 1.7605820105820107,
+            "weighted_score": 0.0848847740766831
+        }
+    },
+    "mt0-1b2": {
+        "size": 1.2,
+        "paraphrased": {
+            "accuracy": 0.3133684210526316,
+            "precision": 0.4656251840599948,
+            "last_name_accuracy": 0.22273684210526315,
+            "last_name_precision": 1.0085066162570888,
+            "weighted_score": 0.2544578947368421
+        },
+        "original": {
+            "accuracy": 0.33088457280869477,
+            "precision": 0.45229605889561164,
+            "last_name_accuracy": 0.2429304619100332,
+            "last_name_precision": 1.003728251864126,
+            "weighted_score": 0.27371440072456477
+        }
+    },
+    "mt0-0b580": {
+        "size": 0.58,
+        "paraphrased": {
+            "accuracy": 0.2531578947368421,
+            "precision": 0.49228029350385194,
+            "last_name_accuracy": 0.19126315789473683,
+            "last_name_precision": 1.0033021463951568,
+            "weighted_score": 0.21292631578947369
+        },
+        "original": {
+            "accuracy": 0.28107074569789675,
+            "precision": 0.4908553700872488,
+            "last_name_accuracy": 0.21706752541008353,
+            "last_name_precision": 1.0032452480296707,
+            "weighted_score": 0.23946865251081817
+        }
+    },
+    "mt0-0b300": {
+        "size": 0.3,
+        "paraphrased": {
+            "accuracy": 0.26526315789473687,
+            "precision": 0.514369198200212,
+            "last_name_accuracy": 0.18789473684210525,
+            "last_name_precision": 1.007843137254902,
+            "weighted_score": 0.21497368421052632
+        }
+    },
+    "mt0-3b7": {
+        "size": 3.7,
+        "paraphrased": {
+            "accuracy": 0.3111578947368421,
+            "precision": 0.4209745577309543,
+            "last_name_accuracy": 0.24126315789473685,
+            "last_name_precision": 1.006108202443281,
+            "weighted_score": 0.2657263157894737
+        }
+    },
+    "mt0-13b": {
+        "size": 13.0,
+        "paraphrased": {
+            "accuracy": 0.37473684210526315,
+            "precision": 0.42299737600393356,
+            "last_name_accuracy": 0.27242105263157895,
+            "last_name_precision": 1.0038639876352395,
+            "weighted_score": 0.3082315789473684
+        }
+    },
+    "flan_t5-0b780": {
+        "size": 0.78,
+        "paraphrased": {
+            "accuracy": 0.3268421052631579,
+            "precision": 0.5018323176111299,
+            "last_name_accuracy": 0.23726315789473684,
+            "last_name_precision": 1.0062111801242235,
+            "weighted_score": 0.2686157894736842
+        },
+        "original": {
+            "accuracy": 0.3465834758981584,
+            "precision": 0.49405374599801033,
+            "last_name_accuracy": 0.25822682902284394,
+            "last_name_precision": 1.0019485580670304,
+            "weighted_score": 0.289151655429204
+        }
+    },
+    "flan_t5-3b": {
+        "size": 3.0,
+        "paraphrased": {
+            "accuracy": 0.35389473684210526,
+            "precision": 0.48127954532510386,
+            "last_name_accuracy": 0.25684210526315787,
+            "last_name_precision": 1.0032786885245901,
+            "weighted_score": 0.29081052631578946
+        },
+        "original": {
+            "accuracy": 0.389151655429204,
+            "precision": 0.45918666716638784,
+            "last_name_accuracy": 0.28489483747609945,
+            "last_name_precision": 1.0024726245143059,
+            "weighted_score": 0.3213847237596861
+        }
+    },
+    "flan_t5-0b250": {
+        "size": 0.25,
+        "paraphrased": {
+            "accuracy": 0.2968421052631579,
+            "precision": 0.5128871344877015,
+            "last_name_accuracy": 0.21936842105263157,
+            "last_name_precision": 1.006717850287908,
+            "weighted_score": 0.24648421052631578
+        },
+        "original": {
+            "accuracy": 0.3171983496024957,
+            "precision": 0.5071086410569994,
+            "last_name_accuracy": 0.24343363188084935,
+            "last_name_precision": 1.0066143034311699,
+            "weighted_score": 0.26925128308342555
+        }
+    },
+    "flan_t5-11b": {
+        "size": 11.0,
+        "paraphrased": {
+            "accuracy": 0.3698947368421053,
+            "precision": 0.4489478318499374,
+            "last_name_accuracy": 0.26631578947368423,
+            "last_name_precision": 1.0023715415019763,
+            "weighted_score": 0.3025684210526316
+        },
+        "original": {
+            "accuracy": 0.3962966690147932,
+            "precision": 0.4426630280812964,
+            "last_name_accuracy": 0.2918385830733622,
+            "last_name_precision": 1.0017241379310344,
+            "weighted_score": 0.32839891315286307
+        }
+    },
+    "flan_t5-0b080": {
+        "size": 0.08,
+        "paraphrased": {
+            "accuracy": 0.2768421052631579,
+            "precision": 0.5092804143692873,
+            "last_name_accuracy": 0.21052631578947367,
+            "last_name_precision": 1.0035,
+            "weighted_score": 0.23373684210526316
+        },
+        "original": {
+            "accuracy": 0.2989835966589514,
+            "precision": 0.5025539821171214,
+            "last_name_accuracy": 0.23538291234779107,
+            "last_name_precision": 1.0021376656690895,
+            "weighted_score": 0.2576431518566972
+        }
+    },
+    "llama-7b": {
+        "size": 7.0,
+        "paraphrased": {
+            "accuracy": 0.2588421052631579,
+            "precision": 0.5421146859162604,
+            "last_name_accuracy": 0.12978947368421054,
+            "last_name_precision": 1.0089213300892133,
+            "weighted_score": 0.1749578947368421
+        },
+        "original": {
+            "accuracy": 0.2628559927543524,
+            "precision": 0.5319345912480846,
+            "last_name_accuracy": 0.1363590620911744,
+            "last_name_precision": 1.0125461254612547,
+            "weighted_score": 0.18063298782328668
+        }
+    },
+    "bloomz-3b": {
+        "size": 3.0,
+        "paraphrased": {
+            "accuracy": 0.2945263157894737,
+            "precision": 0.4799491783592617,
+            "last_name_accuracy": 0.22294736842105264,
+            "last_name_precision": 1.001416430594901,
+            "weighted_score": 0.248
+        },
+        "original": {
+            "accuracy": 0.30341149240213344,
+            "precision": 0.46503961059756355,
+            "last_name_accuracy": 0.2414209519975848,
+            "last_name_precision": 1.0029178824510212,
+            "weighted_score": 0.2631176411391768
+        }
+    },
+    "bloomz-176b": {
+        "size": 176.0,
+        "paraphrased": {
+            "accuracy": 0.2782,
+            "precision": 0.6800663792080229,
+            "last_name_accuracy": 0.2211,
+            "last_name_precision": 1.033921302578019,
+            "weighted_score": 0.241085
+        }
+    },
+    "bloomz-7b1": {
+        "size": 7.1,
+        "paraphrased": {
+            "accuracy": 0.3426315789473684,
+            "precision": 0.4539519220798345,
+            "last_name_accuracy": 0.2595789473684211,
+            "last_name_precision": 1.0016220600162207,
+            "weighted_score": 0.28864736842105265
+        },
+        "original": {
+            "accuracy": 0.3659052027774982,
+            "precision": 0.4391952852198129,
+            "last_name_accuracy": 0.28680688336520077,
+            "last_name_precision": 1.003157894736842,
+            "weighted_score": 0.3144912951595049
+        }
+    },
+    "bloomz-1b7": {
+        "size": 1.7,
+        "paraphrased": {
+            "accuracy": 0.3117894736842105,
+            "precision": 0.4741296799584866,
+            "last_name_accuracy": 0.2336842105263158,
+            "last_name_precision": 1.0040540540540541,
+            "weighted_score": 0.26102105263157893
+        },
+        "original": {
+            "accuracy": 0.2947569689040958,
+            "precision": 0.468983390057339,
+            "last_name_accuracy": 0.2297474086746503,
+            "last_name_precision": 1.0021901007446343,
+            "weighted_score": 0.2525007547549562
+        }
+    },
+    "bloomz-1b1": {
+        "size": 1.1,
+        "paraphrased": {
+            "accuracy": 0.31357894736842107,
+            "precision": 0.4775637418107735,
+            "last_name_accuracy": 0.23442105263157895,
+            "last_name_precision": 1.0017961383026492,
+            "weighted_score": 0.2621263157894737
+        },
+        "original": {
+            "accuracy": 0.32514843514139075,
+            "precision": 0.46850861062395016,
+            "last_name_accuracy": 0.25490590721545736,
+            "last_name_precision": 1.0059218318199763,
+            "weighted_score": 0.2794907919895341
+        }
+    },
+    "gpt_neox-20b": {
+        "size": 20.0,
+        "paraphrased": {
+            "accuracy": 0.027473684210526317,
+            "precision": 1.0723756269770544,
+            "last_name_accuracy": 0.015052631578947368,
+            "last_name_precision": 1.6993006993006994,
+            "weighted_score": 0.0194
+        },
+        "original": {
+            "accuracy": 0.07467042366911543,
+            "precision": 1.6033275658414925,
+            "last_name_accuracy": 0.047398611250880546,
+            "last_name_precision": 2.3906581740976645,
+            "weighted_score": 0.05694374559726276
+        }
+    },
+    "mpt_instruct-6b7": {
+        "size": 6.7,
+        "paraphrased": {
+            "accuracy": 0.19494736842105262,
+            "precision": 0.607054242699014,
+            "last_name_accuracy": 0.11884210526315789,
+            "last_name_precision": 1.1310894596988486,
+            "weighted_score": 0.14547894736842104
+        },
+        "original": {
+            "accuracy": 0.1839589413303814,
+            "precision": 0.9378615823184159,
+            "last_name_accuracy": 0.10687330180134849,
+            "last_name_precision": 1.643126177024482,
+            "weighted_score": 0.13385327563651
+        }
+    },
+    "gpt_4-1800b": {
+        "size": 1800.0,
+        "paraphrased": {
+            "accuracy": 0.7051,
+            "precision": 0.16836432176387633,
+            "last_name_accuracy": 0.6136,
+            "last_name_precision": 1.0065189048239895,
+            "weighted_score": 0.645625
+        }
+    },
+    "roberta_squad-0b355": {
+        "size": 0.355,
+        "paraphrased": {
+            "accuracy": 0.02336842105263158,
+            "precision": 1.6146756052876694,
+            "last_name_accuracy": 0.010526315789473684,
+            "last_name_precision": 2.69,
+            "weighted_score": 0.015021052631578949
+        },
+        "original": {
+            "accuracy": 0.03210224413806984,
+            "precision": 1.103793591806921,
+            "last_name_accuracy": 0.0181141189493811,
+            "last_name_precision": 1.6555555555555554,
+            "weighted_score": 0.023009962765422158
+        }
+    },
+    "roberta_squad-0b125": {
+        "size": 0.125,
+        "paraphrased": {
+            "accuracy": 0.07136842105263158,
+            "precision": 1.3960409648072267,
+            "last_name_accuracy": 0.03452631578947368,
+            "last_name_precision": 2.1097560975609757,
+            "weighted_score": 0.04742105263157895
+        },
+        "original": {
+            "accuracy": 0.11562845929354935,
+            "precision": 1.1905312665970804,
+            "last_name_accuracy": 0.05353728489483748,
+            "last_name_precision": 1.6578947368421053,
+            "weighted_score": 0.07526919593438663
+        }
+    },
+    "falcon-7b": {
+        "size": 7.0,
+        "paraphrased": {
+            "accuracy": 0.029578947368421052,
+            "precision": 0.774318060738123,
+            "last_name_accuracy": 0.012105263157894737,
+            "last_name_precision": 1.1565217391304348,
+            "weighted_score": 0.018221052631578947
+        },
+        "original": {
+            "accuracy": 0.07738754151152259,
+            "precision": 1.4753786018969066,
+            "last_name_accuracy": 0.047901781221696686,
+            "last_name_precision": 2.19327731092437,
+            "weighted_score": 0.05822179732313575
+        }
+    },
+    "t0-3b": {
+        "size": 3.0,
+        "paraphrased": {
+            "accuracy": 0.32221052631578945,
+            "precision": 0.457843925724766,
+            "last_name_accuracy": 0.2373684210526316,
+            "last_name_precision": 1.0079822616407983,
+            "weighted_score": 0.26706315789473684
+        }
+    },
+    "t0-11b": {
+        "size": 11.0,
+        "paraphrased": {
+            "accuracy": 0.344,
+            "precision": 0.44952512590986904,
+            "last_name_accuracy": 0.24105263157894738,
+            "last_name_precision": 1.003930131004367,
+            "weighted_score": 0.2770842105263158
+        }
+    },
+    "llama2-13b": {
+        "size": 13.0,
+        "paraphrased": {
+            "accuracy": 0.214,
+            "precision": 0.4712127179813346,
+            "last_name_accuracy": 0.09252631578947368,
+            "last_name_precision": 1.006825938566553,
+            "weighted_score": 0.13504210526315788
+        }
+    },
+    "llama2-7b": {
+        "size": 7.0,
+        "paraphrased": {
+            "accuracy": 0.19442105263157894,
+            "precision": 0.4611064206968617,
+            "last_name_accuracy": 0.092,
+            "last_name_precision": 1.0160183066361557,
+            "weighted_score": 0.12784736842105263
+        }
+    },
+    "gptj-6b": {
+        "size": 6.0,
+        "paraphrased": {
+            "accuracy": 0.02631578947368421,
+            "precision": 0.7965896171416748,
+            "last_name_accuracy": 0.006631578947368421,
+            "last_name_precision": 1.2380952380952381,
+            "weighted_score": 0.013521052631578948
+        },
+        "original": {
+            "accuracy": 0.052430310959041965,
+            "precision": 1.8669710456522866,
+            "last_name_accuracy": 0.028177518365703935,
+            "last_name_precision": 2.9892857142857143,
+            "weighted_score": 0.03666599577337225
+        }
+    },
+    "roberta-0b125": {
+        "size": 0.125,
+        "paraphrased": {
+            "accuracy": 0.16547368421052633,
+            "precision": 1.0417390034109046,
+            "last_name_accuracy": 0.03389473684210526,
+            "last_name_precision": 1.562111801242236,
+            "weighted_score": 0.07994736842105263
+        },
+        "original": {
+            "accuracy": 0.21082821777196337,
+            "precision": 1.103526794348593,
+            "last_name_accuracy": 0.040354231659454565,
+            "last_name_precision": 1.7007481296758105,
+            "weighted_score": 0.10002012679883265
+        }
+    },
+    "roberta-0b355": {
+        "size": 0.355,
+        "paraphrased": {
+            "accuracy": 0.1831578947368421,
+            "precision": 1.0341058367831142,
+            "last_name_accuracy": 0.04421052631578947,
+            "last_name_precision": 1.5214285714285714,
+            "weighted_score": 0.09284210526315789
+        },
+        "original": {
+            "accuracy": 0.2073060279762504,
+            "precision": 1.0519842867058578,
+            "last_name_accuracy": 0.04679480728590118,
+            "last_name_precision": 1.5397849462365591,
+            "weighted_score": 0.1029737345275234
+        }
+    },
+    "mpt-7b": {
+        "size": 7.0,
+        "paraphrased": {
+            "accuracy": 0.20010526315789473,
+            "precision": 0.52769204496144,
+            "last_name_accuracy": 0.10926315789473684,
+            "last_name_precision": 1.02504816955684,
+            "weighted_score": 0.1410578947368421
+        },
+        "original": {
+            "accuracy": 0.2439368018516655,
+            "precision": 0.813205412110381,
+            "last_name_accuracy": 0.1438059776592533,
+            "last_name_precision": 1.4317704688593422,
+            "weighted_score": 0.17885176612659756
+        }
+    },
+    "incite_instruct-3b": {
+        "size": 3.0,
+        "paraphrased": {
+            "accuracy": 0.36557894736842106,
+            "precision": 0.5302171931280331,
+            "last_name_accuracy": 0.25705263157894737,
+            "last_name_precision": 1.00982800982801,
+            "weighted_score": 0.29503684210526315
+        },
+        "original": {
+            "accuracy": 0.37486162825802555,
+            "precision": 0.7294222577868175,
+            "last_name_accuracy": 0.2705041763107578,
+            "last_name_precision": 1.2276785714285714,
+            "weighted_score": 0.3070292844923015
+        }
+    },
+    "random_full_name-1b": {
+        "size": 1.0,
+        "paraphrased": {
+            "accuracy": 0.038,
+            "precision": 0.7393106574383854,
+            "last_name_accuracy": 0.004842105263157895,
+            "last_name_precision": 1.0869565217391304,
+            "weighted_score": 0.01644736842105263
+        },
+        "original": {
+            "accuracy": 0.035825701922109286,
+            "precision": 0.7356214382238453,
+            "last_name_accuracy": 0.0061386736439569285,
+            "last_name_precision": 1.0819672131147542,
+            "weighted_score": 0.016529133541310255
+        }
+    },
+    "distilbert-0b066": {
+        "size": 0.066,
+        "paraphrased": {
+            "accuracy": 0.014,
+            "precision": 1.084460921581903,
+            "last_name_accuracy": 0,
+            "last_name_precision": 1.0819672131147542,
+            "weighted_score": 0.0049
+        },
+        "original": {
+            "accuracy": 0.015195733118647478,
+            "precision": 1.0405631071144046,
+            "last_name_accuracy": 0.00010063399416322834,
+            "last_name_precision": 2.0,
+            "weighted_score": 0.005383918687732716
+        }
+    },
+    "incite-3b": {
+        "size": 3.0,
+        "paraphrased": {
+            "accuracy": 0.16263157894736843,
+            "precision": 0.5751180781951964,
+            "last_name_accuracy": 0.11147368421052632,
+            "last_name_precision": 1.0273843248347498,
+            "weighted_score": 0.12937894736842107
+        },
+        "original": {
+            "accuracy": 0.1321324343363188,
+            "precision": 1.069298769294009,
+            "last_name_accuracy": 0.08191607124886786,
+            "last_name_precision": 1.694103194103194,
+            "weighted_score": 0.09949179832947569
+        }
+    },
+    "distilbert_squad-0b062": {
+        "size": 0.062,
+        "paraphrased": {
+            "accuracy": 0.16063157894736843,
+            "precision": 0.7426520188803081,
+            "last_name_accuracy": 0.08989473684210526,
+            "last_name_precision": 1.1639344262295082,
+            "weighted_score": 0.11465263157894737
+        },
+        "original": {
+            "accuracy": 0.11049612559122472,
+            "precision": 0.7021430912687615,
+            "last_name_accuracy": 0.07366408372748315,
+            "last_name_precision": 1.1092896174863387,
+            "weighted_score": 0.0865552983797927
+        }
+    },
+    "gpt3.5turbo-175b": {
+        "size": 175.0,
+        "paraphrased": {
+            "accuracy": 0.5151,
+            "precision": 0.22792432078958033,
+            "last_name_accuracy": 0.4356,
+            "last_name_precision": 1.0293847566574839,
+            "weighted_score": 0.463425
+        }
+    },
+    "falcon_instruct-7b": {
+        "size": 7.0,
+        "paraphrased": {
+            "accuracy": 0.04494736842105263,
+            "precision": 0.7158287582001152,
+            "last_name_accuracy": 0.022631578947368423,
+            "last_name_precision": 1.0790697674418606,
+            "weighted_score": 0.030442105263157895
+        },
+        "original": {
+            "accuracy": 0.07789071148233874,
+            "precision": 1.4732039385676823,
+            "last_name_accuracy": 0.04780114722753346,
+            "last_name_precision": 2.2,
+            "weighted_score": 0.05833249471671531
+        }
+    }
+}
