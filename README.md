@@ -8,3 +8,5 @@ This is the official code repository for the paper.
 - `/langchain`: Augmented retrieval experiment for court rulings.
 
 You can find additional information and details within each module.
+
+![structure](code_architecture.png)
